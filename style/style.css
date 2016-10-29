@@ -66,20 +66,16 @@ button {
 }
 
 .container__title {
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     margin: 0.5%;
-}
-
-.container__title:first-letter {
-    color: darkred;
 }
 
 .container__subtitle {
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     margin: 0.5%;
 }
 
-.container__subtitle:first-letter {
+.container__title_color{
     color: darkred;
 }
 
@@ -127,8 +123,8 @@ button {
 
 .slides__item:nth-of-type(5) {
     background-image: url(../img/slides__photo-5.jpg); 
-    background-size: cover;
-    background-position: bottom top;
+    background-size: contain;
+    background-position: top left;
     background-repeat: no-repeat
 }
 
@@ -161,7 +157,7 @@ button {
     height: 7%;
     width: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(0, 0, 0, 0.8)
  }
 
  .button {
@@ -199,7 +195,7 @@ button {
     overflow: hidden;
     padding: 2%;
     color: snow;
-    background-color: rgba(0, 0, 0, 0.6)
+    background-color: rgba(0, 0, 0, 0.2)
  }
 
  .slides__title {
